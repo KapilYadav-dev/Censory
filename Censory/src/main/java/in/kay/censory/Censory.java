@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class CensoryLibrary {
+public class Censory {
     public String defaultCensor(String string, Context context) {
         List<String> words = Arrays.asList(context.getResources().getStringArray(R.array.censored));
         for (String word : words) {
