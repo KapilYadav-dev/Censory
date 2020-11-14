@@ -15,4 +15,4 @@ String output=defaultCensor(string,context);<br />
 String string ="Your string";<br />
 List<String> words =Arrays.asList("head", "now");<br />
 Censory censory = new Censory();<br />
-String output=defaultCensor(string,words);<br />
+String output=customCensor(string,words);<br />
