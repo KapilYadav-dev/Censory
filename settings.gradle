@@ -1,0 +1,3 @@
+include ':Censory'
+include ':app'
+rootProject.name = "Library"
