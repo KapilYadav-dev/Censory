@@ -1,7 +1,5 @@
-apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.android.application'
 
-group='com.github.KapilYadav-dev'
 
 android {
     compileSdkVersion 30
