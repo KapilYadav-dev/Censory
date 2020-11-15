@@ -22,10 +22,10 @@ A small library which will convert censored words to * so that we can process st
 # Use with default list
 String string ="Your string";<br />
 Censory censory = new Censory();<br />
-String output=defaultCensor(string,context);<br />
+String output=censory.defaultCensor(string,context);<br />
 
 # Use with custom list
 String string ="Your string";<br />
 List<String> words =Arrays.asList("head", "now");<br />
 Censory censory = new Censory();<br />
-String output=customCensor(string,words);<br />
+String output=censory.customCensor(string,words);<br />
